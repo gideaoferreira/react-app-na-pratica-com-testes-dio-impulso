@@ -2,6 +2,7 @@
   "name": "e-dash",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "@craco/craco": "^7.0.0-alpha.0",
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
@@ -29,9 +30,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test --watchAll",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
