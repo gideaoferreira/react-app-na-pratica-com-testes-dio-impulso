@@ -2,7 +2,7 @@
   "name": "e-dash",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "./",
   "dependencies": {
     "@craco/craco": "^7.0.0-alpha.0",
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
@@ -18,9 +18,12 @@
     "@types/node": "^16.11.41",
     "@types/react": "^18.0.14",
     "@types/react-dom": "^18.0.5",
+    "apexcharts": "^3.35.3",
     "axios": "^0.27.2",
     "bootstrap": "^5.2.0-beta1",
+    "node-sass": "npm:sass@^1.53.0",
     "react": "^18.2.0",
+    "react-apexcharts": "^1.4.0",
     "react-bootstrap": "^2.4.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.3.0",
@@ -36,6 +39,9 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
+    "rules": {
+      "no-debugger": 0
+    },
     "extends": [
       "react-app",
       "react-app/jest"
@@ -52,5 +58,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/styled-components": "^5.1.25"
   }
 }
